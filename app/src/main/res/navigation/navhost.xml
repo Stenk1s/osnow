@@ -7,5 +7,21 @@
     <fragment
         android:id="@+id/registerScreen"
         android:name="com.example.sportlandapp.ui.RegisterScreen"
-        android:label="RegisterScreen" />
+        android:label="RegisterScreen" >
+        <action
+            android:id="@+id/action_registerScreen_to_forma"
+            app:destination="@id/forma" />
+    </fragment>
+    <fragment
+        android:id="@+id/forma"
+        android:name="com.example.sportlandapp.ui.Forma"
+        android:label="Forma" >
+        <action
+            android:id="@+id/action_forma_to_osnova"
+            app:destination="@id/osnova" />
+    </fragment>
+    <fragment
+        android:id="@+id/osnova"
+        android:name="com.example.sportlandapp.ui.Osnova"
+        android:label="Osnova" />
 </navigation>

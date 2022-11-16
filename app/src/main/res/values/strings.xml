@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">WorkJugent</string>
-    <string name="name">Имя</string>
+    <string name="names">Ник</string>
     <string name="login">Логин</string>
     <string name="password">Пароль</string>
+    <string name="name">Имя</string>
+    <string name="fameli">Фамилия</string>
+    <string name="label_1">Мужской</string>
+    <string name="label_2">Женский</string>
+    <string name="namber">Телефон</string>
+    <string name="butonnaosn">Продолжить</string>
+
+
+
+
 </resources>
