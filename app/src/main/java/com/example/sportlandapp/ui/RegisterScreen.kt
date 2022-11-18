@@ -26,8 +26,11 @@ class RegisterScreen : Fragment(R.layout.fragment__register_sreen) {
         binding.passwordLayout.typeface = Typeface.DEFAULT_BOLD
         binding.buttonPanel.setOnClickListener {
             findNavController().navigate(R.id.action_registerScreen_to_forma)
-        }
 
+        }
+        binding.button2.setOnClickListener {
+            findNavController().navigate(R.id.action_registerScreen_to_inputScreen)
+        }
 
         }
 

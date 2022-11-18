@@ -9,6 +9,9 @@
         android:name="com.example.sportlandapp.ui.RegisterScreen"
         android:label="RegisterScreen" >
         <action
+            android:id="@+id/action_registerScreen_to_inputScreen"
+            app:destination="@id/inputScreen" />
+        <action
             android:id="@+id/action_registerScreen_to_forma"
             app:destination="@id/forma" />
     </fragment>
@@ -24,4 +27,15 @@
         android:id="@+id/osnova"
         android:name="com.example.sportlandapp.ui.Osnova"
         android:label="Osnova" />
+    <fragment
+        android:id="@+id/inputScreen"
+        android:name="com.example.sportlandapp.ui.InputScreen"
+        android:label="InputScreen" >
+        <action
+            android:id="@+id/action_inputScreen_to_registerScreen2"
+            app:destination="@id/registerScreen" />
+        <action
+            android:id="@+id/action_inputScreen_to_osnova"
+            app:destination="@id/osnova" />
+    </fragment>
 </navigation>

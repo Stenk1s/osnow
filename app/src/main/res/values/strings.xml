@@ -8,7 +8,11 @@
     <string name="label_1">Мужской</string>
     <string name="label_2">Женский</string>
     <string name="namber">Телефон</string>
-    <string name="butonnaosn">Продолжить</string>
+    <string name="inbox_title">Поиск</string>
+    <string name="outbox_title">Избранное</string>
+    <string name="favourites_title">Сообщения</string>
+    <string name="singen_title">Настройки</string>
+    <string name="mail_subheader_title">Профиль</string>
 
 
 
