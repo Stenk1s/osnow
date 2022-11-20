@@ -4,21 +4,17 @@
     <item
         android:id="@+id/page_1"
         android:enabled="true"
-        android:icon="@drawable/ic_search_24px"
+        android:icon="@drawable/home__1_"
         android:title="@string/inbox_title"/>
     <item
         android:id="@+id/page_2"
         android:enabled="true"
-        android:icon="@drawable/ic_outbox_24px"
+        android:icon="@drawable/_914208"
         android:title="@string/outbox_title"/>
     <item
         android:id="@+id/page_3"
         android:enabled="true"
-        android:icon="@drawable/ic_favourites_24px"
-        android:title="@string/favourites_title"/>
-    <item
-        android:id="@+id/page_4"
-        android:enabled="true"
-        android:icon="@drawable/ic_setings_24px"
-        android:title="@string/singen_title"/>
+        android:icon="@drawable/_917705"
+        android:title="@string/mail_subheader_title"/>
 </menu>
+ 

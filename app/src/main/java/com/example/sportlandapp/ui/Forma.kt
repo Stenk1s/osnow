@@ -1,5 +1,4 @@
 package com.example.sportlandapp.ui
-
 import android.graphics.Typeface
 import android.os.Bundle
 import android.view.View

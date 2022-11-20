@@ -1,30 +1,18 @@
 package com.example.sportlandapp.ui
 
+import androidx.navigation.findNavController
+import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import androidx.navigation.NavController
+import androidx.navigation.ui.AppBarConfiguration
 import com.example.sportlandapp.R
-import com.example.sportlandapp.databinding.ActivityOsnovaBinding
-import com.example.sportlandapp.databinding.FragmentRegisterSreenBinding
+import androidx.navigation.ui.setupWithNavController
+import com.google.android.material.bottomnavigation.BottomNavigationItemView
+import com.google.android.material.navigation.NavigationBarItemView
 import com.google.android.material.navigation.NavigationBarView
 
-class Osnova : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        NavigationBarView.OnItemSelectedListener { item ->
-            when(item.itemId) {
-                R.id.page_1 -> {
-                    // Respond to navigation item 1 click
-                    true
-                }
-                R.id.page_2 -> {
-                    // Respond to navigation item 2 click
-                    true
-                }
-                else -> false
-            }
-        }
-    }
-
+class Osnova : Fragment(R.layout.activity_osnova) {
 }
