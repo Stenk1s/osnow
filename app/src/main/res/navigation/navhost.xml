@@ -39,5 +39,21 @@
             android:id="@+id/action_inputScreen_to_osnova"
             app:destination="@id/osnova" />
     </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="com.example.sportlandapp.ui.MainScreen"
+        android:label="MainScreen" />
+    <fragment
+        android:id="@+id/newScreen"
+        android:name="com.example.sportlandapp.ui.NewScreen"
+        android:label="NewScreen" >
+        <action
+            android:id="@+id/action_newScreen_to_osnova2"
+            app:destination="@id/osnova" />
+    </fragment>
+    <fragment
+        android:id="@+id/userScreen"
+        android:name="com.example.sportlandapp.ui.UserScreen"
+        android:label="UserScreen" />
 
 </navigation>

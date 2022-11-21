@@ -8,7 +8,7 @@ import com.example.sportlandapp.R
 import com.example.sportlandapp.databinding.ActivityExitnotBinding
 import com.example.sportlandapp.databinding.FragmentRegisterSreenBinding
 
-class InputScreen : Fragment(R.layout.activity_exitnot)  {
+class InputScreen : Fragment(R.layout.activity_exitnot) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val binding = ActivityExitnotBinding.bind(view)
@@ -19,5 +19,5 @@ class InputScreen : Fragment(R.layout.activity_exitnot)  {
             findNavController().navigate(R.id.action_inputScreen_to_osnova)
         }
 
-}
+    }
 }
